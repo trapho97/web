@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB1 - 함정호의 운동루팅</title>
+  <meta charset="utf-8">
+  <style>
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+</style>
+</head>
+
+<body>
+
+  <h1><a href="file:///C:/Users/trapp/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/web/1.html"> 함정호의 운동루팅 </a></h1>
+
+  <p>1. 운동 로테이션은 가슴 -> 등 -> 어깨+팔 -> 하체 -> 휴식 순으로 진행한다.</p>
+  <p style="margin-top:40px;">2. 4/29 현재의 운도방식은 <strong><u>파워리프팅</u></strong> 훈련이며 <u>1set 기준 5회</u>정도로 무게증량을 목표로한다.</p>
+  <p style="margin-top:40px;">3. 점진적 효과에 의거하여 운동강도를 점점 높인다.</p>
+  <p style="margin-top:40px;">4. 어떠한 경우에도 정해진 운동 로테이션을 지킨다.(꾸준한것이 중요)</p>
+
+  <h2>CSS Calendar</h2>
+
+  <div class="month">
+    <ul>
+      <li class="prev">&#10094;</li>
+      <li class="next">&#10095;</li>
+      <li>
+        August<br>
+        <span style="font-size:18px">2021</span>
+      </li>
+    </ul>
+  </div>
+
+  <ul class="weekdays">
+    <li>Mo</li>
+    <li>Tu</li>
+    <li>We</li>
+    <li>Th</li>
+    <li>Fr</li>
+    <li>Sa</li>
+    <li>Su</li>
+  </ul>
+
+  <ul class="days">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li>1(하체)</li>
+    <li>2(가슴)</li>
+    <li>3(등)</li>
+    <li>4(어깨+팔)</li>
+    <li>5(하체)</li>
+    <li>6(휴식)</li>
+    <li>7(가슴)</li>
+    <li>8(등)</li>
+    <li>9(어깨+팔)</li>
+    <li>10(하체)</li>
+    <li>11(휴식)</li>
+    <li>12(가슴)</li>
+    <li>13(등)</li>
+    <li>14(어깨+팔)</li>
+    <li>15(하체)</li>
+    <li>16(휴식)</li>
+    <li>17(가슴)</li>
+    <li>18(등)</li>
+    <li>19(어깨+팔)</li>
+    <li>20(하체)</li>
+    <li>21(휴식)</li>
+    <li>22(가슴)</li>
+    <li>23(등)</li>
+    <li>24(어깨+팔)</li>
+    <li>25(하체)</li>
+    <li>26(휴식)</li>
+    <li>27(가슴)</li>
+    <li>28(등)</li>
+    <li>29(어깨+팔)</li>
+    <li>30(하체)</li>
+    <li>31(휴식)</li>
+  </ul>
+
+  <ul>
+    <li><a href = "가슴.html">가슴</a></li>
+    <li><a href = "등.html">등</a></li>
+    <li><a href = "어깨+팔.html">어깨+팔</a></li>
+    <li><a href = "하체.html">하체</a></li>
+  </ul>
+
+  <img src="안유진1.jpg" width="100%">
+
+</body>
+</html>
